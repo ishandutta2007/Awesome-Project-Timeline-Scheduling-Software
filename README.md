@@ -2,15 +2,19 @@
 
 <div align="center">
 
-# Top Project Timeline & Scheduling Software Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Project Timeline & Scheduling Software Banner" width="100%" />
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<br/><br/>
+
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)
 [![Tracked Tools](https://img.shields.io/badge/Tools_Tracked-25+-blue.svg)](https://github.com/ishandutta2007/Awesome-Project-Timeline-Scheduling-Software)
 [![Last Updated](https://img.shields.io/badge/Updated-November_2026-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Project-Timeline-Scheduling-Software)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-Project-Timeline-Scheduling-Software/pulls)
+<a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
-**A Curated Directory of SaaS Platforms, Enterprise Solutions & Open-Source Timeline / Gantt Scheduling Tools**  
+**🚀 A Curated Directory of SaaS Platforms, Enterprise Solutions & Open-Source Timeline / Gantt Scheduling Tools**  
 *Comprehensive benchmarking covering interactive Gantt charts, critical path method (CPM) engines, baseline tracking, dependency management, and self-hosted scheduling planners.*
 
 </div>
@@ -27,15 +31,14 @@ This guide benchmarks both leading commercial SaaS vendors and self-hosted open-
 
 ## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Enterprise Platforms](#saas--hosted-enterprise-platforms)
-- [Open-Source GitHub Projects & Libraries](#open-source-github-projects--libraries)
-  - [Full-Featured Self-Hosted Platforms](#full-featured-self-hosted-platforms)
-  - [Developer Frameworks & Timeline UI Engines](#developer-frameworks--timeline-ui-engines)
-  - [Specialized Desktop & Extension Tools](#specialized-desktop--extension-tools)
-- [Architectural & Implementation Tradeoffs](#architectural--implementation-tradeoffs)
-- [How to Contribute](#how-to-contribute)
-- [License & Community Governance](#license--community-governance)
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
+- [💻 Open-Source GitHub Projects & Libraries](#-open-source-github-projects--libraries)
+- [🛠️ Architectural & Implementation Tradeoffs](#️-architectural--implementation-tradeoffs)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ License & Community Governance](#️-license--community-governance)
 
 ---
 
@@ -105,16 +108,34 @@ The repositories below are ranked in descending order by **GitHub Star Count**:
 
 When designing or adopting a project timeline and scheduling architecture, engineering and PMO teams typically evaluate three primary paradigms:
 
-### 1. Dedicated Scheduling Engines vs. Generalized Work Suites
+### 1. ⚙️ Dedicated Scheduling Engines vs. Generalized Work Suites
 - **Dedicated Planners (Microsoft Project, GanttPRO, Seedcorn, GanttProject)**: Implement strict Critical Path Method (CPM) math, forward/backward pass algorithms, resource leveling heuristics, and rigid Finish-to-Start (FS), Start-to-Start (SS), Finish-to-Finish (FF), and Start-to-Finish (SF) constraints with lead/lag.
 - **Collaborative Work Suites (Plane, Monday.com, ClickUp, Asana)**: Treat timeline/Gantt views as a presentation layer over Kanban or issue cards. These provide superior team engagement and communication, but may lack automatic cascading recalculations when dates slip.
 
-### 2. Canvas Rendering vs. DOM/SVG Visualization
+### 2. 🎨 Canvas Rendering vs. DOM/SVG Visualization
 - **DOM / SVG Tree Implementations (`frappe/gantt`, standard React tables)**: Easier to inspect, style with standard CSS, and bind event handlers to, but can experience DOM thrashing and lag when timelines scale beyond 500+ concurrent tasks.
 - **HTML Canvas / WebGL Engines (`Seedcorn`, `tiohsa/redmine_canvas_gantt`, virtualized grids)**: Retain 60 FPS performance during smooth panning and zooming across multi-year portfolios containing thousands of tasks.
 
-### 3. Data Governance & Compliance
+### 3. 🛡️ Data Governance & Compliance
 - Teams working under defense, banking, or healthcare regulations often mandate **self-hosted on-premise deployments** (`OpenProject`, `Leantime`, `Plane`, or `Redmine`), guaranteeing that proprietary milestone schedules and subcontractor records never touch multi-tenant commercial cloud environments.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and bookmarking **Awesome Project Timeline & Scheduling Software**! ✨  
+If this curated list saved you research time or assisted your team in evaluating project scheduling architecture, please consider showing your support:
+
+- ⭐ **Star this repository** to improve discoverability for other developers and project managers.
+- 🍴 **Fork and contribute** tools, pricing updates, or documentation enhancements.
+- 📣 **Share it** with your network on LinkedIn, Twitter/X, Reddit, or relevant tech communities.
+- ☕ **Buy a coffee or become a sponsor**: Support independent open-source curation and maintenance directly via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Project-Timeline-Scheduling-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Project-Timeline-Scheduling-Software&type=date&legend=top-left)
 
 ---
 
